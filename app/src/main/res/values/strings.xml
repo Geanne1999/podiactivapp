@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PodiactivApp</string>
+    <string name="description_podiactiv_logo">
+        Le pied pour representer lobjectif du projet.
+    </string>
+    <string name="login">Email</string>
+    <string name="senha">Mot de passe</string>
+    <string name="entrar">Accéder</string>
+    <string name="mot_de_passe_obli">Mot de passe oblié?</string>
 </resources>

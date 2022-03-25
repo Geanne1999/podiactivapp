@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PodiactivApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.ScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SubscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.InitialPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
