@@ -1,11 +1,10 @@
-package com.example.podiactivapp
+package com.example.podiactivapp.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.podiactivapp.databinding.ActivityForgotPasswordBinding
-import com.example.podiactivapp.ui.LoginActivity
 import kotlinx.android.synthetic.main.activity_forgot_password.*
 
 class ForgotPasswordActivity : AppCompatActivity()

@@ -4,7 +4,10 @@
         Le pied pour representer lobjectif du projet.
     </string>
     <string name="login">Email</string>
-    <string name="senha">Mot de passe</string>
+    <string name="user">Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="save_button">Sauvegarder</string>
+    <string name="confirm_password">Confirmation mot de passe</string>
     <string name="entrar">Accéder</string>
     <string name="mot_de_passe_obli">Mot de passe oublié?</string>
     <string name="envoyer">Envoyer</string>

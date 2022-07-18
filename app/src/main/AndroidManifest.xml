@@ -13,7 +13,7 @@
     android:theme="@style/Theme.PodiactivApp"
     >
     <activity
-      android:name=".ForgotPasswordActivity"
+      android:name=".ui.ForgotPasswordActivity"
       android:exported="false"
       />
     <activity

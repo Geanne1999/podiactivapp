@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.podiactivapp.ForgotPasswordActivity
-import com.example.podiactivapp.R
 import com.example.podiactivapp.databinding.ActivityLoginBinding
 import kotlinx.android.synthetic.main.activity_login.*
 
