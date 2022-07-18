@@ -6,5 +6,7 @@
     <string name="login">Email</string>
     <string name="senha">Mot de passe</string>
     <string name="entrar">Accéder</string>
-    <string name="mot_de_passe_obli">Mot de passe oblié?</string>
+    <string name="mot_de_passe_obli">Mot de passe oublié?</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="titleRecupPassword">Insérer le email pour la récuperation:</string>
 </resources>

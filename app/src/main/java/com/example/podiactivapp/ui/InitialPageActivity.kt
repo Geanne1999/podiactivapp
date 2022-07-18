@@ -23,9 +23,11 @@ class InitialPageActivity : AppCompatActivity() {
     private fun listeners(){
         btnLogin.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         }
         btnSubscribe.setOnClickListener {
             startActivity(Intent(this, SubscriptionActivity::class.java))
+            finish()
         }
     }
 }

@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green_principal">#5CAD5C</color>
     <color name="green_toolbar">#509650</color>
+    <color name="btnPrimaryColor">#509650</color>
     <color name="color_text_entrada">#454545</color>
 </resources>

@@ -1,8 +1,10 @@
 package com.example.podiactivapp.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.podiactivapp.ForgotPasswordActivity
 import com.example.podiactivapp.R
 import com.example.podiactivapp.databinding.ActivityLoginBinding
 import kotlinx.android.synthetic.main.activity_login.*
@@ -20,7 +22,10 @@ class LoginActivity : AppCompatActivity() {
         }
 
         login_btnEntrar.setOnClickListener {
-            Toast.makeText(this, "In implementation!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Login succeded!", Toast.LENGTH_SHORT).show()
+        }
+        txtEsquecerSenha.setOnClickListener {
+            startActivity(Intent(this, ForgotPasswordActivity::class.java))
         }
     }
 }
