@@ -17,4 +17,7 @@
   <string name="home">Home</string>
   <!-- TODO: Remove or change this placeholder text -->
   <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="cr_er_votre_premi_r_scan">Créer votre premiér scan!</string>
+  <string name="les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d">Les scans Podiactivs sont flexibles pour construire des modèles de pied en 3D</string>
+  <string name="nouveau_scan">Nouveau Scan</string>
 </resources>

@@ -6,12 +6,30 @@
   android:layout_height="match_parent"
   tools:context=".ui.HomeFragment"
   >
+    <TextView
+      android:id="@+id/titleHome"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="@string/cr_er_votre_premi_r_scan"
+      tools:layout_editor_absoluteX="16dp"
+      tools:layout_editor_absoluteY="96dp"
+      />
 
-  <!-- TODO: Update blank fragment layout -->
   <TextView
+    android:id="@+id/subTitleHome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="Home fragment"
+    android:text="@string/les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="96dp"
+    />
+
+  <Button
+    android:id="@+id/btnCreateNewScan"
+    android:layout_width="wrap_content"
+    android:text="@string/nouveau_scan"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_rounded_corners"
     />
 
 </FrameLayout>
