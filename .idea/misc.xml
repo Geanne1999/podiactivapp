@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.2455" />
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2455" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_forgot_password.xml" value="0.4171875" />
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_home.xml" value="0.2421875" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_initial_page.xml" value="0.4171875" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_login.xml" value="0.4171875" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_main.xml" value="0.4171875" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_scanner.xml" value="0.4171875" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/activity_subscription.xml" value="0.4171875" />
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/fragment_album.xml" value="0.2421875" />
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/fragment_home.xml" value="0.2421875" />
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/fragment_panier.xml" value="0.2421875" />
+        <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/menu/nav_menu.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_initial_page.xml" value="0.264" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_login.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_main.xml" value="0.264" />

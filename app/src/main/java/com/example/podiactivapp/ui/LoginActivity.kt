@@ -21,6 +21,7 @@ class LoginActivity : AppCompatActivity() {
 
         login_btnEntrar.setOnClickListener {
             Toast.makeText(this, "Login succeded!", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, HomeActivity::class.java))
         }
         txtEsquecerSenha.setOnClickListener {
             startActivity(Intent(this, ForgotPasswordActivity::class.java))
