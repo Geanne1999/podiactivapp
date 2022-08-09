@@ -1,0 +1,167 @@
+[versions]
+androidx-camera-version = "1.1.0"
+androidx-security = "1.1.0-alpha03"
+appdistribution-gradle-version = "3.0.2"
+ben-manes-version = "0.41.0"
+cardview-version = "1.0.0"
+compile-sdk = "33"
+coordinatorlayout-version = "1.2.0"
+crashlytics-gradle-version = "2.9.1"
+eslf4j_version = "1.7.14"
+espresso-version = "3.4.0"
+fragment-version = "1.5.0"
+google-services-version = "4.3.13"
+gradle-version = "7.2.1"
+groupie-version = "2.10.1"
+jacoco-version = "0.8.8"
+jetty-version = "8.1.18.v20150929"
+junit-test-version = "1.1.3"
+junit-version = "4.13.2"
+koin-version = "3.1.4"
+koin-version-junit4 = "3.2.0"
+kotlin-coroutine-version = "1.6.3"
+kotlin-version = "1.6.10"
+ksp-version = "1.7.10-1.0.6"
+lifecycle-version = "2.5.0"
+little-robots-version = "0.5.3"
+lokalise-version = "1.4.1"
+min-sdk = "24"
+mockk-version = "1.12.3"
+moshi-version = "1.13.0"
+nav-version = "2.5.0"
+perf-gradle-version = "1.4.1"
+permission-dispatcher-version = "4.9.2"
+recyclerview-version = "1.2.1"
+room-version = "2.4.2"
+sonarqube-gradle-version = "3.4.0.2513"
+target-sdk = "33"
+test-version = "1.4.0"
+viewpager2-version = "1.0.0"
+
+[libraries]
+androidx-browser = "androidx.browser:browser:1.4.0"
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "androidx-camera-version" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "androidx-camera-version" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "androidx-camera-version" }
+androidx-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "androidx-camera-version" }
+androidx-cardview = { module = "androidx.cardview:cardview", version.ref = "cardview-version" }
+androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+androidx-coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinatorlayout-version" }
+androidx-core = "androidx.core:core-ktx:1.7.0"
+androidx-core-test = { module = "androidx.test:core-ktx", version.ref = "test-version" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-version" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-version" }
+androidx-core-testing = "androidx.arch.core:core-testing:2.1.0"
+androidx-datastore = "androidx.datastore:datastore-preferences:1.0.0"
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment-version" }
+androidx-fragment-testing = { module = "androidx.fragment:fragment-testing", version.ref = "fragment-version" }
+androidx-navigation-dynamic-features = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "nav-version" }
+androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "nav-version" }
+androidx-navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "nav-version" }
+androidx-navigation-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "nav-version" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview-version" }
+androidx-security = { module = "androidx.security:security-crypto-ktx", version.ref = "androidx-security" }
+androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+androidx-test-runner = { module = "androidx.test:runner", version.ref = "test-version" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2-version" }
+espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "espresso-version" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-version" }
+espresso-idling-test = { module = "androidx.test.espresso:espresso-idling-resource", version.ref = "espresso-version" }
+espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "espresso-version" }
+firebase = "com.google.firebase:firebase-bom:30.2.0"
+firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-core = { module = "com.google.firebase:firebase-core" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
+firebase-perf = { module = "com.google.firebase:firebase-perf-ktx" }
+groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "groupie-version" }
+groupie-viewbinding = { module = "com.github.lisawray.groupie:groupie-viewbinding", version.ref = "groupie-version" }
+json = "org.json:json:20220320"
+junit = { module = "junit:junit", version.ref = "junit-version" }
+junit-test = { module = "androidx.test.ext:junit", version.ref = "junit-test-version" }
+junit-test-ktx = { module = "androidx.test.ext:junit-ktx", version.ref = "junit-test-version" }
+koin = { module = "io.insert-koin:koin-android", version.ref = "koin-version" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin-version" }
+koin-test-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koin-version-junit4" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin-coroutine-version" }
+kotlin-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlin-coroutine-version" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin-version" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin-version" }
+kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin-version" }
+lokalise = "com.lokalise.android:sdk:2.1.0-lite"
+lottie = "com.airbnb.android:lottie:5.2.0"
+material = "com.google.android.material:material:1.6.1"
+mockk = { module = "io.mockk:mockk", version.ref = "mockk-version" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk-version" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi-version" }
+moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "moshi-version" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi-version" }
+moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi-version" }
+permissions-dispatcher = { module = "com.github.permissions-dispatcher:permissionsdispatcher", version.ref = "permission-dispatcher-version" }
+permissions-dispatcher-processor = { module = "com.github.permissions-dispatcher:permissionsdispatcher-processor", version.ref = "permission-dispatcher-version" }
+play-core = "com.google.android.play:core:1.10.3"
+room = { module = "androidx.room:room-ktx", version.ref = "room-version" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-version" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-version" }
+rootbeer = "com.scottyab:rootbeer-lib:0.1.0"
+security-crypto = { module = "androidx.security:security-crypto-ktx", version.ref = "androidx-security" }
+sqlcipher = "net.zetetic:android-database-sqlcipher:4.5.1"
+sweet-coapble = "com.hagergroup:sweet-coapble:2.3.6.6-SNAPSHOT"
+sweet-domovea = "com.hagergroup:sweet-domovea:1.1.5"
+sweet-gateway-discover = "com.hagergroup:sweet-gateway-discover:1.4.2"
+sweet-myhager = "com.hagergroup:sweet-myhager:1.1.0"
+sweet-potato = "com.hagergroup:sweet-potato:2.2.4-SNAPSHOT"
+sweet-rollout = "com.hagergroup:sweet-rollout:0.7.5-SNAPSHOT"
+sweet-uitoolkit = "com.hagergroup:sweet-ui-toolkit:1.2.4"
+timber = "com.jakewharton.timber:timber:5.0.1"
+truth = "com.google.truth:truth:1.1.3"
+
+[bundles]
+androidx-camera = [
+    "androidx-camera-core",
+    "androidx-camera-lifecycle",
+    "androidx-camera-view",
+    "androidx-camera2",
+]
+androidx-core-test = [
+    "androidx-core-test",
+    "androidx-core-testing",
+]
+androidx-navigation = [
+    "androidx-navigation-dynamic-features",
+    "androidx-navigation-fragment",
+    "androidx-navigation-ui",
+]
+espresso = [
+    "espresso-contrib",
+    "espresso-core",
+    "espresso-intents",
+]
+firebase = [
+    "firebase-analytics",
+    "firebase-core",
+    "firebase-crashlytics",
+    "firebase-messaging",
+    "firebase-perf",
+]
+groupie = [
+    "groupie",
+    "groupie-viewbinding",
+]
+junit = [
+    "junit",
+    "junit-test",
+    "junit-test-ktx",
+]
+moshi = [
+    "moshi",
+    "moshi-adapters",
+    "moshi-kotlin",
+]
+room = [
+    "room",
+    "room-runtime",
+]
+
+[plugins]
+kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
