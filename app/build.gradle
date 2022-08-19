@@ -9,12 +9,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.podiactivapp"
         minSdk 21
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -64,8 +64,8 @@ dependencies {
 
     /* ROOM */
     implementation "androidx.room:room-runtime:$room_version"
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.0'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.5.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     //implementation 'com.google.firebase:firebase-auth-ktx:21.0.2'
     kapt "androidx.room:room-compiler:$room_version"
