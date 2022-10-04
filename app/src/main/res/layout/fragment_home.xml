@@ -10,36 +10,46 @@
   >
 
   <androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
 
     <TextView
-      android:id="@+id/titleHome"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:text="@string/cr_er_votre_premi_r_scan"
-      app:layout_constraintBottom_toTopOf="@+id/subTitleHome"
-      />
+        android:id="@+id/titleHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/cr_er_votre_premi_r_scan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-      android:id="@+id/subTitleHome"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:text="@string/les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      />
+        android:id="@+id/subTitleHome"
+        android:layout_width="369dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleHome" />
 
     <Button
-      android:id="@+id/btnCreateNewScan"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:background="@drawable/button_rounded_corners"
-      android:text="@string/nouveau_scan"
-      tools:layout_editor_absoluteX="129dp"
-      tools:layout_editor_absoluteY="277dp"
-      />
+        android:id="@+id/btnCreateNewScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/button_rounded_corners"
+        android:text="@string/nouveau_scan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subTitleHome" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

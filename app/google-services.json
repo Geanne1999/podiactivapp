@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281107809355",
+    "project_id": "podiactiv",
+    "storage_bucket": "podiactiv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281107809355:android:cb377ee46913c1a794f9ce",
+        "android_client_info": {
+          "package_name": "com.example.podiactivapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281107809355-odjcgtd3melcl6vdcb1q2lv4btd8hnop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG4Ajsdj70DtNj3quBlV7AcMEpYmZv1qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281107809355-odjcgtd3melcl6vdcb1q2lv4btd8hnop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -17,11 +17,22 @@
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/layout/fragment_panier.xml" value="0.2421875" />
         <entry key="..\:/Users/Geanne/podiactiv/podiactivapp/app/src/main/res/menu/nav_menu.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/drawable/button_rounded_corners.xml" value="0.215" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_about_us.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_help.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_home.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_initial_page.xml" value="0.264" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_login.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_scanner.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_scanner.xml" value="0.264" />
         <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/activity_subscription.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/menu/config_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/geann/AndroidStudioProjects/PodiactivApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1085" />
       </map>
     </option>
   </component>

@@ -1,7 +1,10 @@
 package com.example.podiactivapp.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.fragment.app.Fragment
 import com.example.podiactivapp.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -34,6 +37,23 @@ class HomeActivity : AppCompatActivity()
         else -> false
       }
     }
+  }
+
+  override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    menuInflater.inflate(R.menu.config_menu, menu)
+    return true
+  }
+
+  override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+    when(item.itemId){
+      R.id.settings -> {
+        startActivity(Intent(this, AccountActivity::class.java))
+        finish()
+      }
+
+    }
+    return super.onOptionsItemSelected(item)
   }
 
   private fun loadFragment(fragment: Fragment){

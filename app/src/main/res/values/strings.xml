@@ -1,23 +1,24 @@
 <resources>
-  <string name="app_name">Podiactiv</string>
-  <string name="description_podiactiv_logo">
+    <string name="app_name">Podiactiv</string>
+    <string name="description_podiactiv_logo">
         Le pied pour representer lobjectif du projet.
     </string>
-  <string name="login">Email</string>
-  <string name="user">Utilisateur</string>
-  <string name="password">Mot de passe</string>
-  <string name="save_button">Sauvegarder</string>
-  <string name="confirm_password">Confirmation mot de passe</string>
-  <string name="entrar">Accéder</string>
-  <string name="mot_de_passe_obli">Mot de passe oublié?</string>
-  <string name="envoyer">Envoyer</string>
-  <string name="titleRecupPassword">Insérer le email pour la récuperation:</string>
-  <string name="panier">Panier</string>
-  <string name="album">Album</string>
-  <string name="home">Home</string>
-  <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Hello blank fragment</string>
-  <string name="cr_er_votre_premi_r_scan">Créer votre premiér scan!</string>
-  <string name="les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d">Les scans Podiactivs sont flexibles pour construire des modèles de pied en 3D</string>
-  <string name="nouveau_scan">Nouveau Scan</string>
+    <string name="login">Email</string>
+    <string name="user">Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="save_button">Sauvegarder</string>
+    <string name="confirm_password">Confirmation mot de passe</string>
+    <string name="entrar">Accéder</string>
+    <string name="mot_de_passe_obli">Mot de passe oublié?</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="titleRecupPassword">Insérer le email pour la récuperation:</string>
+    <string name="panier">Panier</string>
+    <string name="album">Album</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cr_er_votre_premi_r_scan">Créer votre premiér scan!</string>
+    <string name="les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d">Les scans Podiactivs sont flexibles pour construire des modèles de pied en 3D</string>
+    <string name="nouveau_scan">Nouveau Scan</string>
+    <string name="account_config">account config</string>
 </resources>
