@@ -22,6 +22,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:text="geanneolimpio1999@gmail.com"
             android:id="@+id/logintxtEmail"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress" />
@@ -43,6 +44,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:id="@+id/logintxtSenha"
+            android:text="Bobesponja@123"
             android:layout_height="match_parent"
             android:inputType="textPassword"
             android:textColor="@color/color_text_entrada" />

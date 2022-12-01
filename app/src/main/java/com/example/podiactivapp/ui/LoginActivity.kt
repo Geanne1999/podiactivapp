@@ -3,7 +3,6 @@ package com.example.podiactivapp.ui
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import com.example.podiactivapp.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -26,8 +25,6 @@ class LoginActivity : AppCompatActivity() {
         }
 
         login_btnEntrar.setOnClickListener {
-            /*Toast.makeText(this, "Login succeded!", Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this, HomeActivity::class.java))*/
             login()
         }
         txtEsquecerSenha.setOnClickListener {

@@ -2,29 +2,33 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.podiactivapp">
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logopodiactivfinalsope"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logopodiactivfinalsope"
         android:supportsRtl="true"
         android:theme="@style/Theme.PodiactivApp">
         <activity
-            android:name=".AboutUsActivity"
+            android:name=".ui.OnBoardingActivity"
             android:exported="false" />
         <activity
-            android:name=".HelpActivity"
+            android:name=".ui.DetailProductActivity"
             android:exported="false" />
         <activity
-            android:name=".MesureConfigActivity"
+            android:name=".ui.AboutUsActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".ui.HelpActivity"
             android:exported="false" />
         <activity
-            android:name=".AccountActivity"
+            android:name=".ui.MesureConfigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AccountActivity"
             android:exported="false" />
         <activity
             android:name=".ui.HomeActivity"

@@ -15,11 +15,6 @@ class AccountActivity : AppCompatActivity() {
             title="Podiactiv"
             setDisplayHomeAsUpEnabled(true)
         }
-
-        constraintLayoutProfile.setOnClickListener {
-            startActivity(Intent(this, ProfileActivity::class.java))
-            finish()
-        }
         constraintLayoutMesurePrix.setOnClickListener {
             startActivity(Intent(this, MesureConfigActivity::class.java ))
             finish()

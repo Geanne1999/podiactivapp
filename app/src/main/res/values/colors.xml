@@ -11,4 +11,12 @@
     <color name="green_toolbar">#509650</color>
     <color name="btnPrimaryColor">#509650</color>
     <color name="color_text_entrada">#454545</color>
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#509650</color>
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#509650</color>
 </resources>

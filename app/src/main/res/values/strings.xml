@@ -21,4 +21,31 @@
     <string name="les_scans_podiactivs_sont_flexibles_pour_construire_des_mod_les_de_pied_en_3d">Les scans Podiactivs sont flexibles pour construire des modèles de pied en 3D</string>
     <string name="nouveau_scan">Nouveau Scan</string>
     <string name="account_config">account config</string>
+    <string name="selected_item">Item choisi:</string>
+
+    <string-array name="Tailles">
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+    </string-array>
+
+    //Headings
+    <string name="heading_one">Créer une nouvelle compte</string>
+    <string name="heading_two">Connectez-vous à votre compte  </string>
+    <string name="heading_three">Nouveau scan: vidéo sous tous les angles</string>
+    <string name="heading_fourth">Acheter votre semelle</string>
+
+    //Description
+    <string name="desc_one">Insérer vos informations pour sinscrire</string>
+    <string name="desc_two">Insérer votre email et mot de passe pour se connecter</string>
+    <string name="desc_three">Faites une vidéo de la plante de votre pied sous 360°</string>
+    <string name="desc_fourth">Aller à onglet album pour continuer les achats</string>
+
 </resources>

@@ -40,11 +40,13 @@ class HomeFragment : Fragment()
   {
     val rootView = inflater.inflate(R.layout.fragment_home, container, false)
 
-    val intent = Intent(activity, ScannerActivity::class.java)
+    val intent = Intent(context, ScannerActivity::class.java)
     val button = rootView.findViewById<Button>(R.id.btnCreateNewScan)
 
     button.setOnClickListener{
       startActivity(intent)
+      activity?.fragmentManager?.popBackStack()
+      //activity?.onBackPressed()
     }
 
     return rootView
