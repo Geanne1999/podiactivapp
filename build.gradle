@@ -16,7 +16,7 @@ buildscript {
     dependencies {
         //kotlin libraries import
         classpath 'com.android.tools.build:gradle:7.0.4'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25"
         classpath 'com.google.gms:google-services:4.3.14'
     }
 }
